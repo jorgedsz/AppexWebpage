@@ -283,7 +283,7 @@ function MediaViewer(props) {
                 }}
               >
                 <div className="text-[11px] font-semibold truncate" style={{ color: PALETTE.text }}>
-                  {m.kind === "video" ? "\u25B6 " : "\u25A2 "}
+                  {m.kind === "video" ? "▶ " : "▢ "}
                   {m.title}
                 </div>
                 <div className="text-[10px] truncate" style={{ color: PALETTE.subMuted }}>
@@ -321,22 +321,22 @@ function buildSolutions() {
       ],
       howItWorks: [
         "A missed call triggers an instant WhatsApp/SMS within seconds.",
-        "The system asks 3\u20135 questions to capture intent and details.",
+        "The system asks 3–5 questions to capture intent and details.",
         "Qualified leads get routed to the right person/location automatically.",
         "If a human should take over, it escalates with a clean summary.",
       ],
       priceLabel: "Starting at $___",
       priceNote: "Final price depends on channels + routing complexity.",
       emotional: {
-        money: "Recover leads that would have gone to competitors \u2014 more booked jobs and more revenue without extra staff.",
+        money: "Recover leads that would have gone to competitors — more booked jobs and more revenue without extra staff.",
         freedom: "Even if you miss a call, you still look responsive. Less stress after hours, more time for family.",
-        growth: "A reliable intake engine that scales with your team \u2014 not with one person\u2019s availability.",
+        growth: "A reliable intake engine that scales with your team — not with one person's availability.",
         service: "Clients feel taken care of instantly, which builds trust and increases conversions.",
       },
       media: [
-        { kind: "image", title: "Missed call \u2192 WhatsApp reply", note: "Flow overview" },
+        { kind: "image", title: "Missed call → WhatsApp reply", note: "Flow overview" },
         { kind: "image", title: "Lead capture questions", note: "Short intake" },
-        { kind: "video", title: "Demo video", note: "30\u201360s walkthrough" },
+        { kind: "video", title: "Demo video", note: "30–60s walkthrough" },
         { kind: "image", title: "Routing + escalation", note: "Human handoff" },
       ],
     },
@@ -360,7 +360,7 @@ function buildSolutions() {
       priceNote: "Depends on calendar/CRM integration and reminder complexity.",
       emotional: {
         money: "Lower no-shows = more revenue from the same schedule (no extra marketing spend).",
-        freedom: "Your team stops chasing confirmations manually \u2014 more time for higher-value tasks.",
+        freedom: "Your team stops chasing confirmations manually — more time for higher-value tasks.",
         growth: "Scaling locations becomes easier once reminders run automatically.",
         service: "Clients feel guided and supported, which improves retention and referrals.",
       },
@@ -389,7 +389,7 @@ function buildSolutions() {
       priceLabel: "Starting at $___",
       priceNote: "Depends on channels + knowledge base size + routing rules.",
       emotional: {
-        money: "Convert more inquiries because you respond instantly \u2014 higher conversions with the same team.",
+        money: "Convert more inquiries because you respond instantly — higher conversions with the same team.",
         freedom: "Fewer interruptions for staff; smoother peak-hour operations.",
         growth: "Consistent front desk experience across multiple locations.",
         service: "Your client experience improves because answers are fast, consistent, and guided.",
@@ -412,7 +412,7 @@ function buildSolutions() {
       includes: ["Journey schedule", "Response logging", "Escalation triggers", "Basic reporting"],
       howItWorks: [
         "After a visit/service, the system schedules check-ins automatically.",
-        "Clients reply with simple options (e.g., \u201cGood\u201d, \u201cNeed help\u201d).",
+        'Clients reply with simple options (e.g., "Good", "Need help").',
         "Problems trigger an alert to your staff instantly.",
         "You keep consistent follow-up without manual tracking.",
       ],
@@ -420,7 +420,7 @@ function buildSolutions() {
       priceNote: "Depends on number of touchpoints + escalation rules.",
       emotional: {
         money: "Higher retention and referrals because clients feel cared for.",
-        freedom: "No manual follow-up chaos \u2014 the system does it automatically.",
+        freedom: "No manual follow-up chaos — the system does it automatically.",
         growth: "Consistent follow-up supports quality at scale.",
         service: "You detect issues early and protect your reputation.",
       },
@@ -448,7 +448,7 @@ function buildSolutions() {
       priceLabel: "Fixed price: $___",
       priceNote: "Quick setup. Optional upgrades available.",
       emotional: {
-        money: "Capture leads you\u2019d normally lose after hours \u2014 quick ROI.",
+        money: "Capture leads you'd normally lose after hours — quick ROI.",
         freedom: "Stop worrying about replying instantly; your business stays responsive.",
         growth: "A perfect first step toward a full automation system.",
         service: "Clients get clarity and next steps, which increases trust.",
@@ -478,13 +478,13 @@ function buildSolutions() {
       emotional: {
         money: "More follow-ups = more closed deals. The tracker prevents leads from silently dying.",
         freedom: "Your team knows exactly what to do next without chaos.",
-        growth: "Tracking becomes a habit \u2014 the foundation for scaling operations.",
+        growth: "Tracking becomes a habit — the foundation for scaling operations.",
         service: "Consistency improves customer experience and reduces complaints.",
       },
       media: [
         { kind: "image", title: "Tracker view", note: "Simple pipeline" },
         { kind: "image", title: "Alerts", note: "No more forgotten leads" },
-        { kind: "video", title: "Setup demo", note: "2\u20133 min walkthrough" },
+        { kind: "video", title: "Setup demo", note: "2–3 min walkthrough" },
       ],
     },
   ];
@@ -509,22 +509,22 @@ var FOCUS_BLOCKS = [
   {
     title: "Peace of mind",
     subtitle:
-      "Don\u2019t lose clients because you were busy. Our automations respond instantly and keep people supported \u2014 especially in health and care scenarios.",
+      "Don't lose clients because you were busy. Our automations respond instantly and keep people supported — especially in health and care scenarios.",
   },
   {
     title: "Time back for your team and your family",
     subtitle:
-      "When follow-ups, confirmations, and routine questions are automated, your team can focus on improving the business \u2014 and you get breathing room at home.",
+      "When follow-ups, confirmations, and routine questions are automated, your team can focus on improving the business — and you get breathing room at home.",
   },
   {
     title: "Ambitious ownership",
     subtitle:
-      "Make more money, gain more control, and run like an owner. Systems create leverage \u2014 so your growth doesn\u2019t depend on you being everywhere.",
+      "Make more money, gain more control, and run like an owner. Systems create leverage — so your growth doesn't depend on you being everywhere.",
   },
   {
     title: "Customer service: the hidden growth lever",
     subtitle:
-      "Most businesses never improve because they don\u2019t track what went wrong. Our follow-up systems collect feedback, highlight issues, and help you fix them fast.",
+      "Most businesses never improve because they don't track what went wrong. Our follow-up systems collect feedback, highlight issues, and help you fix them fast.",
   },
 ];
 
@@ -668,7 +668,7 @@ function FAQItem(props) {
           {props.q}
         </div>
         <div className="text-sm" style={{ color: PALETTE.subMuted }}>
-          {open ? "\u2212" : "+"}
+          {open ? "−" : "+"}
         </div>
       </button>
       {open ? (
@@ -683,13 +683,13 @@ function FAQItem(props) {
 function HomePage(props) {
   var needs = [
     {
-      title: "Missed calls \u2192 instant WhatsApp reply",
+      title: "Missed calls → instant WhatsApp reply",
       desc: "Recover lost leads automatically and capture details.",
       need: "Missed Calls",
     },
     {
       title: "After-hours auto-reply (Busy mode)",
-      desc: "Stay responsive when you\u2019re offline.",
+      desc: "Stay responsive when you're offline.",
       need: "After-hours",
     },
     {
@@ -896,8 +896,8 @@ function HomePage(props) {
         />
         <div className="mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
           <Stat label="Response speed" value="Seconds" note="Auto-replies triggered instantly after missed calls/messages." />
-          <Stat label="Bookings recovered" value="\u2191" note="More clients convert because you respond when competitors don\u2019t." />
-          <Stat label="No-shows reduced" value="\u2193" note="Two-way confirmations and smart reminders improve attendance." />
+          <Stat label="Bookings recovered" value="↑" note="More clients convert because you respond when competitors don't." />
+          <Stat label="No-shows reduced" value="↓" note="Two-way confirmations and smart reminders improve attendance." />
           <Stat label="Staff time saved" value="Hours" note="AI handles repetitive questions and follow-ups." />
         </div>
       </section>
@@ -908,7 +908,7 @@ function HomePage(props) {
           <SectionHeader
             kicker="FEATURED"
             title="Popular solutions"
-            subtitle="Need-driven offers that solve real problems \u2014 not just \u201ctools.\u201d"
+            subtitle={'Need-driven offers that solve real problems — not just \u201ctools.\u201d'}
           />
           <Button variant="secondary" onClick={props.onGoSolutions}>
             Browse all &rarr;
@@ -958,7 +958,7 @@ function HomePage(props) {
               <SectionHeader
                 kicker="INDUSTRIES"
                 title="Built for the people who run the real world"
-                subtitle="Clinics, dentists, beauty, and field teams \u2014 systems that help you respond faster and follow up consistently."
+                subtitle="Clinics, dentists, beauty, and field teams — systems that help you respond faster and follow up consistently."
               />
               <div className="mt-5 flex flex-wrap gap-2">
                 {INDUSTRIES.slice(0, 7).map(function (i) {
@@ -1012,7 +1012,7 @@ function HomePage(props) {
         <SectionHeader
           kicker="STORIES"
           title="The outcome clients actually want"
-          subtitle="More money, more control, and peace of mind \u2014 because the system keeps working even when you\u2019re busy."
+          subtitle="More money, more control, and peace of mind — because the system keeps working even when you're busy."
         />
         <div className="mt-8 grid grid-cols-1 md:grid-cols-3 gap-4">
           <QuoteCard
@@ -1026,7 +1026,7 @@ function HomePage(props) {
             role="Medical practice"
           />
           <QuoteCard
-            quote="I\u2019m a contractor \u2014 if I\u2019m on a job, I can\u2019t answer. Now I look responsive and I close more work."
+            quote="I'm a contractor — if I'm on a job, I can't answer. Now I look responsive and I close more work."
             name="Owner"
             role="Field services"
           />
@@ -1050,8 +1050,8 @@ function HomePage(props) {
       {/* FINAL CTA */}
       <section className="mt-14">
         <CTABox
-          title="Ready to stop losing clients when you\u2019re busy?"
-          subtitle="Pick a solution or book a quick call \u2014 we\u2019ll map the best workflow for your industry and goals."
+          title="Ready to stop losing clients when you're busy?"
+          subtitle="Pick a solution or book a quick call — we'll map the best workflow for your industry and goals."
           primaryLabel="Find My Solution"
           secondaryLabel="Book a Call"
           secondaryHref={props.calendarLink}
@@ -1081,7 +1081,7 @@ function SolutionCard(props) {
             </div>
           </div>
           <div className="text-xs text-right" style={{ color: PALETTE.subMuted }}>
-            {s.channels.join(" \u2022 ")}
+            {s.channels.join(" • ")}
           </div>
         </div>
 
@@ -1483,7 +1483,7 @@ function IndustriesPage(props) {
         <SectionHeader
           kicker="INDUSTRIES"
           title="Built for the people who run the real world"
-          subtitle="We help service businesses respond faster, follow up consistently, and grow with systems \u2014 not stress."
+          subtitle="We help service businesses respond faster, follow up consistently, and grow with systems — not stress."
         />
         <div className="flex gap-2">
           <Button variant="secondary" onClick={props.onGoHome}>
@@ -1515,7 +1515,7 @@ function IndustriesPage(props) {
                     {i.label}
                   </div>
                   <div className="mt-2 text-sm" style={{ color: PALETTE.muted }}>
-                    {i.examples.join(" \u2022 ")}
+                    {i.examples.join(" • ")}
                   </div>
                 </div>
               );
@@ -1551,7 +1551,7 @@ function AboutPage(props) {
       <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-6">
         <SectionHeader
           kicker="ABOUT"
-          title="We build systems that keep working when you\u2019re busy"
+          title="We build systems that keep working when you're busy"
           subtitle="APPEX INNOVATIONS is focused on need-driven automation and AI agents for service businesses."
         />
         <div className="flex gap-2">
@@ -1581,7 +1581,7 @@ function AboutPage(props) {
           <div className="mt-6 grid grid-cols-1 md:grid-cols-2 gap-4">
             {[
               { t: "Need-driven", d: "We lead with the client need and the outcome, not the software." },
-              { t: "Fast to deploy", d: "Major systems and quick \u201cmini offers\u201d depending on urgency." },
+              { t: "Fast to deploy", d: 'Major systems and quick \u201cmini offers\u201d depending on urgency.' },
               { t: "Works with your stack", d: "We integrate your CRM, calendar, sheets, and messaging." },
               { t: "Measured results", d: "Dashboards and logs so you can optimize and scale." },
             ].map(function (x) {
@@ -1700,7 +1700,7 @@ function ContactPage(props) {
         <SectionHeader
           kicker="CONTACT"
           title="Tell us what you need"
-          subtitle="Describe the situation (industry + problem). We\u2019ll recommend the best solution."
+          subtitle="Describe the situation (industry + problem). We'll recommend the best solution."
         />
         <div className="flex gap-2">
           <Button variant="secondary" onClick={props.onGoHome}>
@@ -1926,7 +1926,7 @@ function Footer(props) {
 export default function AppexInnovationsSite(props) {
   var brandName = props.brandName || "APPEX INNOVATIONS";
   var initialPage = props.initialPage || "home";
-  var heroTitle = props.heroTitle || "Never miss a lead or patient again \u2014 even when you\u2019re busy.";
+  var heroTitle = props.heroTitle || "Never miss a lead or patient again — even when you're busy.";
   var heroSubtitle = props.heroSubtitle || "AI agents + automations that respond instantly, qualify clients, book appointments, and follow up until they take action.";
   var calendarLink = props.calendarLink || "#";
   var contactEmail = props.contactEmail || "hello@appexinnovations.com";
@@ -2039,14 +2039,14 @@ export default function AppexInnovationsSite(props) {
           <LegalPage
             kicker="LEGAL"
             title="Privacy Policy"
-            subtitle="Placeholder \u2014 replace with your final privacy policy."
+            subtitle="Placeholder — replace with your final privacy policy."
             onGoHome={function () { nav("home"); }}
           />
         ) : page === "terms" ? (
           <LegalPage
             kicker="LEGAL"
             title="Terms of Service"
-            subtitle="Placeholder \u2014 replace with your final terms."
+            subtitle="Placeholder — replace with your final terms."
             onGoHome={function () { nav("home"); }}
           />
         ) : (
